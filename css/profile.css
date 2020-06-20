@@ -1,0 +1,146 @@
+/*style sheet dor ass1course1*/
+body{
+
+	background-color:#e8e8e8;
+	padding:15px;
+}
+h1{
+	font-size:200%;
+	color:#ffe4e4;
+	line-height:110px;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+header{
+ text-align:center;
+ background-color:#22c1c3;
+ background-image: linear-gradient(#0038a6 10%,#0eb9ff);
+ height:150px;
+
+}
+/*nav{
+    color:lightpurple;
+	font-size:125%;
+	font-variant:small-caps;
+	font-style:italic;
+}*/
+h2{
+    
+    font-family:Arial;
+	color:purple;
+	font-style:italic;
+	background-color:#22c1c3;
+}
+.side h2{
+  width:200px;
+}
+#special{
+	width:120px;
+}
+li{
+	font-family:Papyrus;
+    font-size:105%;	
+    font-weight: ;
+}
+li{
+	font-family: 'Sriracha', cursive;
+	font-size:110%;	
+}
+
+details{
+	font-style:italic;
+	font-size:110%;
+}
+summary{
+font-family:Arial;	
+font-style: normal;
+font-size:120%;
+
+}
+section>p>span{
+	font-weight:bold;
+}
+
+.side{
+	display:inline-block;
+	float:left;
+	padding-right:200px;
+	padding-left:10px;
+
+}
+
+.separate{
+	clear:both;
+	font-size:110%;
+
+}
+section p{
+	margin:20px;
+}
+section label{
+	margin:20px;
+}
+#one{
+	padding-left:35%;
+	background-color: #b9b9b9;
+	background-image: linear-gradient(#b9b9b9,#e8e8e8);
+
+}
+img{
+	margin:10px;
+}
+h3{ color:	#FFA500;
+	width:110px;
+	
+	width:;
+}
+footer div{
+	display:flex;
+	padding-left:35%;
+	
+}
+footer h3{
+	padding-left:42%;
+}
+
+footer a{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+  width:90px;
+  height:90px;  
+  font-size:60px;
+  transition:0.5s;
+  
+  }
+  footer a:hover{ 
+  	color:#fff;
+  }
+  footer a::before{
+  	content: '';
+  	position:absolute;
+  	top:0;
+  	left:0;
+  	right:0;
+  	bottom:0;	
+  	background: #0088d7;
+  	border-radius:50%;
+  	z-index:-1;
+  	transform:scale(0);
+  	transition:0.5s;
+  }
+    footer a:hover:before{
+    transform:scale(1);
+    }
+
+    footer a:nth-child(1):hover:before{
+    	background:#4c37d0;
+    }
+    footer a:nth-child(2):hover:before{
+    	background:#0088d7;
+    }
+    footer a:nth-child(3):hover:before{
+    	background:red;
+    }
